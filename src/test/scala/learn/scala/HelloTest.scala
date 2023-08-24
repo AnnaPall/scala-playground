@@ -1,6 +1,6 @@
-package example
+package learn.scala
 
-class HelloSpec extends munit.FunSuite {
+class HelloTest extends munit.FunSuite {
   test("say hello") {
     assertEquals(Hello.greeting, "hello")
   }
